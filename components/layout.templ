@@ -1,0 +1,32 @@
+package components
+
+templ MainLayout(title string) {
+	<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			@headTags()
+			<title>{ title }</title>
+		</head>
+		<body>
+			<header class="flex justify-center">
+				<h1>Headers</h1>
+			</header>
+			<main>
+				{ children... }
+			</main>
+		</body>
+	</html>
+}
+
+templ AuthLayout(title string) {
+	<!DOCTYPE html>
+	<html lang="en">
+		<head>
+			@headTags()
+			<title>{ title }</title>
+		</head>
+		<body>
+			{ children... }
+		</body>
+	</html>
+}

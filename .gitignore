@@ -1,0 +1,6 @@
+**_templ.*
+venv
+.idea
+*.db
+.env
+*.sum
