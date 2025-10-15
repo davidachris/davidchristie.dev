@@ -56,10 +56,11 @@ export function About() {
             {/* Extended About Content */}
             <div className="space-y-4 text-base md:text-lg text-muted-foreground max-w-3xl mx-auto pt-4">
               <p>
-              I’m a self-taught software engineer who turned curiosity into a career. 
+              I'm a self-taught software engineer who turned curiosity into a career. 
               What began as late nights automating spreadsheets became production systems that power global media analytics. 
-              Along the way, I earned a U.S. patent, built data platforms from the ground up, and learned to see code as both a craft and a catalyst. 
-              I thrive where complex problems meet creative solutions, and where there’s always something new to build.
+              Along the way, I earned a U.S. patent, <small><a href="https://ppubs.uspto.gov/pubwebapp/static/pages/ppubsbasic.html?number=11616999" target="_blank" rel="noopener noreferrer" className="hover:text-primary/80 transition-colors">US-11616999-B1</a></small>, 
+              built data platforms from the ground up, and learned to see code as both a craft and a catalyst. 
+              I thrive where complex problems meet creative solutions, and where there's always something new to build.
               </p>
             </div>
           
